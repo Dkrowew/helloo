@@ -1,0 +1,107 @@
+/* Use a beautiful Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe6f0;
+    color: #333;
+    text-align: center;
+    line-height: 1.7;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Header */
+header {
+    background-color: #ff99c8;
+    color: white;
+    padding: 2rem 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Main content wrapper */
+main {
+    padding: 2rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto; /* centers it horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Sections */
+section {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* Section Titles */
+h2 {
+    color: #e60073;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1rem;
+    color: #444;
+    padding: 0.5rem 0;
+}
+
+/* Lists with cute hearts */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: left;
+}
+
+ul li {
+    padding-left: 1.5rem;
+    position: relative;
+    margin-bottom: 0.8rem;
+}
+
+ul li::before {
+    content: "💖";
+    position: absolute;
+    left: 0;
+}
+
+/* Centered photo */
+.photo {
+    display: block;
+    margin: 0 auto 1rem auto;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #ffccdd;
+    color: #555;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    width: 100%;
+}
